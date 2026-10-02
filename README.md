@@ -1,5 +1,7 @@
 # MD trajectory viewer
 
+**Live demo:** https://md-trajectory-viewer.streamlit.app/
+
 **Question.** A browser tool to load, play and analyse molecular dynamics trajectories.
 
 ![Demo: EGFR T790M + osimertinib trajectory playing in the viewer](docs/demo.gif)
@@ -32,5 +34,5 @@ Upload limit is 200 MB per file (`.streamlit/config.toml`). Use the stride contr
 
 ## Status
 App works locally with the demo trajectory: frame slider and in-browser playback, RMSD, radius of gyration,
-per-residue RMSF, MDAnalysis selection syntax, upload with size limit. Not yet deployed.
+per-residue RMSF, MDAnalysis selection syntax, upload with size limit. Deployed on Streamlit Community Cloud (the app sleeps when idle; wake it with the button).
 Part of a 30-project computational biology and scientific software portfolio.
