@@ -2,6 +2,8 @@
 
 **Question.** A browser tool to load, play and analyse molecular dynamics trajectories.
 
+![Demo: EGFR T790M + osimertinib trajectory playing in the viewer](docs/demo.gif)
+
 ## Data
 Topology + trajectory files (PDB/GRO + XTC/DCD); demo data from the egfr-mmgbsa runs.
 
@@ -30,5 +32,5 @@ Upload limit is 200 MB per file (`.streamlit/config.toml`). Use the stride contr
 
 ## Status
 App works locally with the demo trajectory: frame slider and in-browser playback, RMSD, radius of gyration,
-per-residue RMSF, MDAnalysis selection syntax, upload with size limit. Not yet deployed; README GIF pending.
+per-residue RMSF, MDAnalysis selection syntax, upload with size limit. Not yet deployed.
 Part of a 30-project computational biology and scientific software portfolio.
